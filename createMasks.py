@@ -2,6 +2,10 @@ import cv2
 import numpy as np
 import glob
 import matplotlib.pyplot as plt
+import glob
+
+if len(glob.glob('labels/')) == 0:
+	os.mkdir('labels/')
 
 if __name__ == '__main__':
 	

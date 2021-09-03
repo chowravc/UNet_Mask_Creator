@@ -3,8 +3,12 @@ import os
 import numpy as np
 from PIL import Image
 import cv2
+import glob
 
 images = glob.glob('./images/*.tif')
+
+if len(glob.glob('darkened_images/')) == 0:
+	os.mkdir('darkened_images/')
 
 print("Found "+str(len(images))+" images to darken.")
 
