@@ -1,1 +1,7 @@
 *.rar
+/images/
+/images/*
+/darkened_images/
+/darkened_images/*
+/labels/
+/labels/*
